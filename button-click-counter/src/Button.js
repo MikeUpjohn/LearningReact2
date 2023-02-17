@@ -1,18 +1,13 @@
-import React, {useState} from 'react';
+import React from 'react';
 
-function Button() {
-    const [counter, setCounter] = useState(0);
-    const handleClick = () => setCounter(counter + 1);
+function Button(props) {
+    // const handleClick = () => setCounter(counter + 1);
 
     return (
-        <button onClick={handleClick}>
-            {counter}
+        <button onClick={props.onClickFunction}>
+            +1  
         </button>
     )
-}
-
-function logRandom() {
-    console.log(Math.random());
 }
 
 export default Button;
