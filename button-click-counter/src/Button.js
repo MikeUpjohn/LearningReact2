@@ -1,9 +1,14 @@
 import React, {useState} from 'react';
 
 function Button() {
-    const [counter, setCounter] = useState(5);
+    const [counter, setCounter] = useState(0);
+    const handleClick = () => setCounter(counter + 1);
 
-    return <button onClick={() => setCounter(counter * 2)}>{counter}</button>
+    return (
+        <button onClick={handleClick}>
+            {counter}
+        </button>
+    )
 }
 
 function logRandom() {
