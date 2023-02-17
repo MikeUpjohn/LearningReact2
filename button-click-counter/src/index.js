@@ -2,13 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Button from './Button';
+import Display from './Display';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <>
     <Button />
-  </React.StrictMode>
+    <Display />
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
