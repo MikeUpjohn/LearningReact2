@@ -6,12 +6,20 @@
   width: 75px; 
 }
 
-.github-profile img .info {
+.github-profile .info {
   display:inline-block;
   margin-left:12px;
+  position: relative;
+  top:-37px;
 }
 
-.github-profile img .info .name {
+.github-profile .info .name {
     font-size:1.25rem;
     font-weight:bold;
+}
+
+.header {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
