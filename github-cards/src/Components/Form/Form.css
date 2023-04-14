@@ -1,0 +1,17 @@
+form {
+    padding: 25px;
+    background-color:lightgray;
+    width:350px;
+    border: 1px solid darkgray;
+}
+
+form input {
+    font-size:16px;
+    margin-right:25px;
+    padding: 10px;
+}
+
+form button {
+    font-size:16px;
+    padding:10px;
+}
