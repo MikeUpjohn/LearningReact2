@@ -6,12 +6,9 @@ import Form from './Components/Form/Form';
 import './App.css';
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      profiles: testData
-    };
-  }
+  state = {
+    profiles: testData,
+  };
 
   render() {
     return (
