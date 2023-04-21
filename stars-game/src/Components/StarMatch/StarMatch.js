@@ -1,5 +1,7 @@
+import React, { useState } from 'react';
+
 const StarMatch = () => {
-    const stars = utils.random(1, 9);
+    const [stars, setStars] = useState(utils.random(1, 9));
     return (
         <div className="game">
             <div className="help">
